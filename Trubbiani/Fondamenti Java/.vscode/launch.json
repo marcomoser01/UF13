@@ -1,0 +1,29 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Hello World",
+      "request": "launch",
+      "mainClass": "it.altaformazione.App",
+      "projectName": "helloworld"
+    },
+    {
+      "type": "java",
+      "name": "Parameter",
+      "request": "launch",
+      "mainClass": "it.altaformazione.App",
+      "projectName": "parameters",
+      "args": "120 2 3 4 5"
+    }
+  ]
+}
