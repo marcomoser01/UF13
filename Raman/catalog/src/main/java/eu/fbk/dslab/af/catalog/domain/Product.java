@@ -2,13 +2,29 @@ package eu.fbk.dslab.af.catalog.domain;
 
 import org.springframework.data.annotation.Id;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "Product")
 public class Product {
     @Id
     private String id;
+
+    @Column(name="title")
     private String title;
+
+    @Column(name="category")
     private String category;
+
+    @Column(name="description")
     private String description;
+
+    @Column(name="price")
     private Double price;
+
+    @Column(name="quantity")
     private Integer quantity;
     
     public String getId() {
