@@ -1,12 +1,10 @@
-package eu.fbk.dslab.af.catalog;
+package com.shop.shop;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.annotation.DirtiesContext;
 
 @SpringBootTest
-@DirtiesContext
-class CatalogApplicationTests {
+class ShopApplicationTests {
 
 	@Test
 	void contextLoads() {
